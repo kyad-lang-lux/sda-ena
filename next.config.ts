@@ -9,10 +9,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   
-  // Optionnel : tu peux aussi ignorer ESLint pour aller plus vite
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  
 };
 
 export default nextConfig;
