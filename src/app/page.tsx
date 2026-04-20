@@ -5,16 +5,26 @@ export default function Home() {
     <div className="home-wrapper">
       <header className="hero-section">
         <div className="hero-content">
-          <p className="institution-name">ENAM — École Nationale d'Administration et de Magistrature</p>
-          <h1>Bienvenue à la Bibliothèque du SDA</h1>
+         <h1>Bienvenue à la Bibliothèque du SDA</h1>
           <p className="hero-description">
             Accédez au catalogue documentaire, enregistrez vos visites et déposez vos mémoires en ligne.
           </p>
-          <Link href="/login" className="btn-main">
-            <i className="fa-solid fa-book-open"></i> Accéder à la bibliothèque
-          </Link>
+          
+         <div className="link">
+  {/* Lien pour l'enregistrement (Arrivée à la salle) */}
+  <Link href="/login" className="btn-main">
+    <i className="fa-solid fa-user-check"></i> Enregistrement
+  </Link>
+
+  {/* Lien pour le catalogue (Consultation des ouvrages) */}
+  <Link href="/login" className="btn-main">
+    <i className="fa-solid fa-book-bookmark"></i> Catalogue
+  </Link>
+</div>
+
         </div>
       </header>
+      <br /> <br />
 
       <main className="content-container">
         <section className="info-card">

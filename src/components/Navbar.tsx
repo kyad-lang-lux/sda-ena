@@ -14,9 +14,9 @@ export default function Navbar() {
         <Link href="/" className="nav-logo" onClick={() => setIsOpen(false)}>
           <div className="logo-icon"><i className="fa-solid fa-book-bookmark"></i></div>
           <div className="logo-text">
-            <strong>SDA Digital</strong>
+            <strong>Bibliothèque</strong>
             <span>ENAM</span>
-          </div>
+          </div> 
         </Link>
 
         {/* Burger Mobile */}
