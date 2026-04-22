@@ -34,6 +34,7 @@ export default function RootLayout({
           rel="stylesheet" 
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
         />
+        <link rel="shortcut icon" href="public/img/logo.jpg" type="image/x-icon" />
       </head>
       <body>
         <div className="main-layout">

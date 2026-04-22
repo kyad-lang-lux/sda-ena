@@ -12,10 +12,14 @@ export default function Navbar() {
       <div className="nav-container">
         {/* Logo */}
         <Link href="/" className="nav-logo" onClick={() => setIsOpen(false)}>
-          <div className="logo-icon"><i className="fa-solid fa-book-bookmark"></i></div>
+          <div className="logo-icon">
+            {/* <i className="fa-solid fa-book-bookmark"></i> */}
+            <img src="/img/logo.jpg" alt="" />
+          </div>
           <div className="logo-text">
             <strong>Bibliothèque</strong>
-            <span>ENAM</span>
+            <strong>ENA</strong>
+            {/* <span>ENAM</span> */}
           </div> 
         </Link>
 
